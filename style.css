@@ -1,0 +1,386 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.foto1 {
+  background-image: url('WOW3.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100%;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.foto1 .sla1 {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  text-align: center;
+  padding: 60px 50px;
+  line-height: 1.6em;
+}
+
+.sla2 {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.sla2 img {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 200px;
+}
+
+.sla2 p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+img[src*="timeattack2.jpg"] {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sla3 {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.sla3 h2 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  color: #444;
+}
+
+.sla3 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.sla3 li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.sla3 section {
+  margin-bottom: 20px;
+}
+
+.sla4 {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sla4 h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.6em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sla4 a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ce139f;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.sla4 a:hover {
+  background-color: #cc3198;
+}
+
+.sla6 {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #ffffffcc, #f9f9f9cc); /* Fundo claro com leve transparência */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+  backdrop-filter: blur(4px);
+  background-image: url('wow.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.sla6 h2 {
+  color: #ff22cf;
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff22cf;
+  padding-bottom: 5px;
+  color: #ff22cf;
+  border-color: #ff22cf;
+}
+
+.sla6 p {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.sla6 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.sla6 li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.sla6 > * {
+  position: relative;
+  z-index: 1;
+}
+
+.sla6::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('wow.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  transform: scale(1.1);
+  z-index: 0;
+}
+
+.sla9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.sla9 .card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.sla9 .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sla9 .card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.sla9 .card h2 {
+  font-size: 1.2em;
+  color: #FF5722;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.sla9 .card p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #555;
+}
+
+.patrocinadores {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.6); /* leve transparência se tiver imagem de fundo */
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.patrocinadores h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.patrocinadores p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logos img {
+  width: 200px;
+  max-width: 90%;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+ .logos img:hover {
+  transform: scale(1.05);
+}
+
+ .video-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+  .video-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+  .video-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+  .video-grid iframe {
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+  .video-section a {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 15px;
+    color: #fa2a23;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+  .video-section a:hover {
+    color: #c01e19;
+    text-decoration: underline;
+}
+
+.footer {
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #FA2A23;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ddd;
+  font-size: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.social-icons img {
+  width: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.vemprapista-logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+  color: #999;
+  border-top: 1px solid #333;
+}
+
